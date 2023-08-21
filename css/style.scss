@@ -352,6 +352,9 @@ html{
     .what-is-optimization{
         background: #fff;
     }
+    .what-is-optimization-text{
+        width: auto;
+    }
 }
 @media screen and (max-width: 1100px){
     .container{
@@ -380,5 +383,11 @@ html{
         grid-template-rows: repeat(5, 1fr);
         gap: 0px 50px;
         font-weight: bold;
+    }
+}
+@media screen and (max-width: 550px){
+    .what-are-you-can-content{
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 }
